@@ -1,0 +1,136 @@
+@media (max-width: 1680px){
+
+    section{
+        padding: 75px 0px;
+    }
+
+    /* Quarta Section */
+
+    .s4content img{
+        width: 600px;
+    }
+
+    .achievement{
+        margin: 6px;
+        padding: 40px 5px;
+    }
+
+    /* Quinta Section */
+
+    .square p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1440px){
+
+    section{
+        padding: 125px 0px 50px;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    /* Primeira Section */
+    .s1content h1{
+        color: #24CAAC;
+        font-size: 3.6em;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+
+    .s1content p{
+        margin-top: 15px;
+        margin-bottom: 50px;
+        color: white;
+        max-width: 400px;
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .s1content img{
+        width: 500px;
+     }
+
+    /* Segunda Section */
+
+     .s2content{
+        flex-basis: 32%;
+     }
+
+     .s2content .icon{
+        font-size: 20px;
+        color: #F31D66;
+    }
+    
+    .s2content h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .s2content p{
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    /* Terceira Section */
+
+    .s3content{
+        padding: 10px;
+        align-items: center;
+    }
+
+    .s3content p{
+        font-size: 16px;
+    }
+
+    .stars{
+        gap: 0px;
+    }
+
+    /* Quarta Section */
+
+    .s4content{
+        flex-basis: 46%;
+    }
+    
+    .s4content img{
+        width: 500px;
+    }
+
+    .achievement{
+        margin: 4px;
+        flex-basis: 48%;
+        padding: 30px 10px;
+    }
+
+    .achievement h1{
+        font-size: 25px;
+    }
+
+    .achievement p{
+        font-size: 15px;
+    }
+
+    /* Sexta Section */
+
+    .s6content img{
+        max-width: 600px;
+    }
+
+    .s6content{
+        width: 30%;
+    }
+
+    /* Footer */
+
+    .footercontent p{
+        max-width: 220px;
+        text-align: justify;
+    }
+}   
