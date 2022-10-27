@@ -6,6 +6,10 @@
 
     /* Quarta Section */
 
+    .s4content{
+        flex-basis: 49%;
+    }
+
     .s4content img{
         width: 600px;
     }
@@ -19,6 +23,12 @@
 
     .square p {
         font-size: 15px;
+    }
+
+    /* Sexta Section */
+
+    .s6content img{
+        width: 600px;
     }
 }
 
@@ -134,3 +144,261 @@
         text-align: justify;
     }
 }   
+
+@media (max-width: 1024px){
+
+    #container{
+        width: 90%;
+    }
+
+    /* Header */
+
+    .navbar{
+        width: 90%;
+    }
+
+    .links a{
+        margin-left: 5px;
+    }
+    
+    /* Primeira Section */
+
+    .s1content h1{
+        padding-top: 40px;
+        font-size: 3em;
+    }
+
+    .s1content p{
+        font-size: 15px;
+        max-width: 360px;
+    }
+
+    .s1content img{
+        width: 500px;
+    }
+
+    /* Segunda Section */
+
+    .s2content p{
+        font-size: 13px;
+    }
+
+    /* Terceira Section */
+
+    .s3content h3{
+        font-size: 15px;
+    }
+
+    /* Quarta Section */
+
+    .s4content img {
+        width: 450px;
+    }
+
+    /* Quinta Section */
+
+    .tcontent p{
+        font-size: 15px;
+    }
+
+    /* Sexta Section */
+
+    .s6content img{
+        width: 500px;
+    }
+    
+    .s6content form{
+        height: 500px;
+        padding: 20px 30px;
+    }
+
+    .s6content input{
+        height: 40px;
+    }
+
+    .s6content textarea{
+        height: 100px;
+    }
+
+    #submit{
+        padding: 0px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+
+    .footercontent h1{
+        font-size: 22px;
+    }
+
+    .footercontent p{
+        font-size: 12px;
+        max-width: 170px;
+    }
+
+    .footercontent ul li{
+        font-size: 13px;
+    }
+
+    .f4 input{
+        padding: 6px;
+    }
+}
+
+@media (min-width: 769px){
+    .menu{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+
+    #s1 img, #s4 img, #s6 img, .links{
+       display: none;
+    }
+
+    /* Primeira Section */
+
+    .s1container{
+        flex-direction: column;    
+    }
+
+    .s1content h1{
+        font-size: 3.8em;
+    }
+    .s1content p{
+        max-width: 700px;
+        font-size: 1em;
+    }
+
+    /* Segunda Section */
+
+    .s2container{
+        flex-direction: column;
+    }
+    .s2content{
+        margin: 10px;
+    }
+
+    .s2content h3{
+        font-size: 21px;
+    }
+
+    .s2content p{
+        font-size: 15px;
+    }
+
+    /* Terceira Section */
+
+    .s3container img{
+        width: 200px;
+    }
+
+    .s3content{
+        flex-basis: 48%;
+        margin: 15px 0px;
+    }
+
+    /* Quarta Section */
+
+    .s4container{
+        flex-direction: column;
+    }
+
+    .achievement{
+        padding: 40px 0px;
+    }
+
+    /* Quinta Section */
+
+    .s5container{
+        flex-direction: column;
+    }
+
+    /* Sexta Section */
+
+    .s6container{
+        flex-direction: column;
+    }
+
+    .s6content{
+        width: 80%;
+    }
+
+    /* Footer */
+
+    .footercontainer{
+        display: none;
+    }
+}
+
+@media (max-width: 425px){
+
+    .s1container, .s2container, .s5container, .footercontainer{
+        width: 80%;
+    }
+
+    /* Header */
+
+    .navbar{
+        width: 80%;
+    }
+
+    /* Primeira Section */
+
+    .s1content h1{
+        font-size: 3em;
+    }
+
+    /* Terceira Section */
+
+    .s3content img{
+        width: 100px;
+    }
+
+    .s3content{
+        flex-basis: 100%;
+    }
+
+    /* Quarta Section */
+
+    .s4content{
+        width: 100%;
+    }
+
+    .achievement{
+        margin: 10px 50px;
+        flex-basis: 100%;
+    }
+
+    /* Quinta Section */
+
+    .tcontent p{
+        font-size: 13px;
+    }
+
+    .square img{
+        width: 75px;
+    }
+
+    .square{
+        margin: 10px 0;
+    }
+
+    /* Sexta Section */
+
+    .s6content{
+        width: 100%;
+    }
+
+    .s6content form{
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .leo{
+        font-size: 12px;
+    }
+}

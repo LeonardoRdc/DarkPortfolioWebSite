@@ -43,6 +43,15 @@ header{
     background-color: #24CAAC;
 }
 
+.menu{
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.menu:hover{
+    color: #24CAAC;
+}
+
 /* Primeira Section */
 
 .s1container{
@@ -334,6 +343,7 @@ header{
     padding: 50px 50px;
     background-color: rgba(55, 66, 80, 0.281);
     border-radius: 10px;
+    align-items: center;
 }
 
 .s6content h4{
